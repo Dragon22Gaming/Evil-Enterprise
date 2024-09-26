@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpiffotvycw3n"]
+
+[ext_resource type="PackedScene" uid="uid://4umobc0dl0b0" path="res://Characters/mr_triangle.tscn" id="1_6xxx7"]
+[ext_resource type="Script" path="res://Scripts/camera_2d_tycoon.gd" id="2_bbaeu"]
+
+[node name="Arena" type="Node2D"]
+
+[node name="MrTriangle" parent="." instance=ExtResource("1_6xxx7")]
+position = Vector2(336, 264)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+script = ExtResource("2_bbaeu")

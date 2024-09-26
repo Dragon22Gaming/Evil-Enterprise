@@ -1,0 +1,106 @@
+[gd_scene load_steps=6 format=3 uid="uid://dtmyv731xubuh"]
+
+[ext_resource type="Script" path="res://Interfaces/menu.gd" id="1_7fhru"]
+[ext_resource type="Texture2D" uid="uid://duxayhlcjrs6j" path="res://Textures/EVIL ENTERPRISE HEHEHEHEH.png" id="1_k1o05"]
+[ext_resource type="Texture2D" uid="uid://b0ysfd5vr8rfl" path="res://Textures/Play.png" id="3_g0lhf"]
+[ext_resource type="Texture2D" uid="uid://csc3ny6tpew50" path="res://Textures/Quit.png" id="4_ek0ur"]
+[ext_resource type="Texture2D" uid="uid://20ggr7rheurj" path="res://Textures/Settings.png" id="5_edm5m"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 6
+script = ExtResource("1_7fhru")
+metadata/_edit_use_anchors_ = true
+
+[node name="Menu-Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.729056
+anchor_bottom = 1.0
+offset_right = 0.12793
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_k1o05")
+metadata/_edit_use_anchors_ = true
+
+[node name="Filler_1" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.729
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.191956
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Buttons_Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.729
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.191956
+grow_horizontal = 0
+grow_vertical = 2
+color = Color(0, 0.180392, 0.180392, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Play" type="TextureButton" parent="Buttons_Background"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.321309
+offset_right = -6.10352e-05
+offset_bottom = -0.208008
+texture_normal = ExtResource("3_g0lhf")
+texture_pressed = ExtResource("3_g0lhf")
+texture_hover = ExtResource("3_g0lhf")
+texture_disabled = ExtResource("3_g0lhf")
+texture_focused = ExtResource("3_g0lhf")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit" type="TextureButton" parent="Buttons_Background"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.321309
+anchor_right = 1.0
+anchor_bottom = 0.653963
+offset_left = 6.10352e-05
+offset_top = -0.208008
+offset_bottom = 0.231964
+texture_normal = ExtResource("4_ek0ur")
+texture_pressed = ExtResource("4_ek0ur")
+texture_hover = ExtResource("4_ek0ur")
+texture_disabled = ExtResource("4_ek0ur")
+texture_focused = ExtResource("4_ek0ur")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="Settings" type="TextureButton" parent="Buttons_Background"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.654321
+anchor_right = 1.0
+anchor_bottom = 1.00032
+offset_right = -6.10352e-05
+offset_bottom = -0.208008
+texture_normal = ExtResource("5_edm5m")
+texture_pressed = ExtResource("5_edm5m")
+texture_hover = ExtResource("5_edm5m")
+texture_disabled = ExtResource("5_edm5m")
+texture_focused = ExtResource("5_edm5m")
+stretch_mode = 0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Buttons_Background/Play" to="." method="Play_Button_Pressed"]
+[connection signal="pressed" from="Buttons_Background/Quit" to="." method="Quit_Button"]
+[connection signal="pressed" from="Buttons_Background/Settings" to="." method="Setting_Pressed"]

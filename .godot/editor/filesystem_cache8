@@ -1,0 +1,42 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1726538856
+icon.svg::CompressedTexture2D::2515179866494386221::1722042926::1722042930::1::::<><>::
+::res://Characters/::1725338367
+mr_triangle.tscn::PackedScene::2077517682365315655::1726539092::0::1::::<><>::uid://bx0mr0ktoj5j6::::res://Textures/CYA SUCKERS!.png<>res://Scripts/mr_triangle.gd<>res://Scripts/TriangleAnimationPlayer.gd<>uid://c3sa4aaye5jml::::res://Textures/The evil Mr triangle.png
+::res://Font/::1725333850
+::res://Font/HandJet/::1725333853
+Handjet-VariableFont_ELGR,ELSH,wght.ttf::FontFile::1191137804708658479::1725333839::1725333853::1::::<><>::
+OFL.txt::TextFile::-1::1725333839::0::1::::<><>::
+README.txt::TextFile::-1::1725333839::0::1::::<><>::
+::res://Font/HandJet/static/::1725333853
+Handjet-Black.ttf::FontFile::7360247207029313780::1725333838::1725333853::1::::<><>::
+Handjet-Bold.ttf::FontFile::5151678699951734460::1725333838::1725333853::1::::<><>::
+Handjet-ExtraBold.ttf::FontFile::7932950477950138397::1725333838::1725333853::1::::<><>::
+Handjet-ExtraLight.ttf::FontFile::4260171010883015315::1725333839::1725333853::1::::<><>::
+Handjet-Light.ttf::FontFile::5276256882000062349::1725333839::1725333853::1::::<><>::
+Handjet-Medium.ttf::FontFile::8445662436671601845::1725333838::1725333853::1::::<><>::
+Handjet-Regular.ttf::FontFile::2249176545232091518::1725333838::1725333853::1::::<><>::
+Handjet-SemiBold.ttf::FontFile::9120562578366478238::1725333838::1725333853::1::::<><>::
+Handjet-Thin.ttf::FontFile::5925035395881816431::1725333838::1725333853::1::::<><>::
+::res://Interfaces/::1725340291
+menu.gd::GDScript::-1::1725338365::0::1::::<>Control<>::
+menu.tscn::PackedScene::8519119047963606659::1725338695::0::1::::<><>::res://Interfaces/menu.gd<>uid://duxayhlcjrs6j::::res://Textures/EVIL ENTERPRISE HEHEHEHEH.png<>uid://b0ysfd5vr8rfl::::res://Textures/Play.png<>uid://csc3ny6tpew50::::res://Textures/Quit.png<>uid://20ggr7rheurj::::res://Textures/Settings.png
+Settings.tscn::PackedScene::1654747880594584375::1725340291::0::1::::<><>::res://Scripts/settings.gd
+::res://Places/::1725338367
+arena.tscn::PackedScene::8228923007280130829::1725338367::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Scripts/camera_2d_tycoon.gd
+TycoonArea.tscn::PackedScene::5510885222822697774::1726539117::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Places/tycoon_area.gd<>res://Scripts/camera_2d_tycoon.gd
+tycoon_area.gd::GDScript::-1::1726539117::0::1::::<>Node2D<>::
+::res://Scripts/::1725338741
+camera_2d_tycoon.gd::GDScript::-1::1725252800::0::1::::<>Camera2D<>::
+mr_triangle.gd::GDScript::-1::1726539063::0::1::::<>CharacterBody2D<>::
+settings.gd::GDScript::-1::1725338741::0::1::::<>Control<>::
+TriangleAnimationPlayer.gd::GDScript::-1::1722048568::0::1::::<>AnimatedSprite2D<>::
+::res://Textures/::1725254779
+CYA SUCKERS!.png::CompressedTexture2D::4053133823043089361::1722044628::1722044706::1::::<><>::
+EVIL ENTERPRISE HEHEHEHEH.png::CompressedTexture2D::8610562855996930695::1724988292::1724988292::1::::<><>::
+Logo.png::CompressedTexture2D::6669946146361180067::1722046157::1722046158::1::::<><>::
+Play.png::CompressedTexture2D::4191788880473027505::1725236170::1725236296::1::::<><>::
+Quit.png::CompressedTexture2D::6042093908829971357::1725236161::1725236296::1::::<><>::
+Settings.png::CompressedTexture2D::1947084181911028171::1725236165::1725236296::1::::<><>::
+The evil Mr triangle.png::CompressedTexture2D::6775339577944412279::1722043703::1722044707::1::::<><>::
+Wall Placeholder.png::CompressedTexture2D::282238868247950828::1725254775::1725254779::1::::<><>::

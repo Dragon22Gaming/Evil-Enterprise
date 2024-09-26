@@ -1,0 +1,5 @@
+res://Characters/mr_triangle.tscn
+res://Scripts/mr_triangle.gd
+res://Places/TycoonArea.tscn
+res://Places/tycoon_area.gd
+res://Scripts/Managers/Game_Manager.gd

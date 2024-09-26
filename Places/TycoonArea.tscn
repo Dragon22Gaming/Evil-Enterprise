@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckrrqeqswdsmw"]
+
+[ext_resource type="PackedScene" uid="uid://4umobc0dl0b0" path="res://Characters/mr_triangle.tscn" id="1_5m8vw"]
+[ext_resource type="Script" path="res://Places/tycoon_area.gd" id="1_jckev"]
+[ext_resource type="Script" path="res://Scripts/camera_2d_tycoon.gd" id="3_gyph5"]
+
+[node name="TycoonArea" type="Node2D"]
+script = ExtResource("1_jckev")
+
+[node name="MrTriangle" parent="." instance=ExtResource("1_5m8vw")]
+unique_name_in_owner = true
+position = Vector2(184, 104)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+unique_name_in_owner = true
+zoom = Vector2(3, 3)
+limit_left = 0
+limit_top = 0
+limit_right = 600
+limit_bottom = 600
+position_smoothing_enabled = true
+script = ExtResource("3_gyph5")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+
+[node name="Border" type="Marker2D" parent="."]
+position = Vector2(600, 600)
