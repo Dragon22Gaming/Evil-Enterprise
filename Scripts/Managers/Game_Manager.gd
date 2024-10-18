@@ -1,6 +1,7 @@
 extends Node
 
-var money
+@export_category("Resources")
+@export var money: int
 
 func load_data():
 	pass

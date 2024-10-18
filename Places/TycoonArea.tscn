@@ -9,10 +9,11 @@ script = ExtResource("1_jckev")
 
 [node name="MrTriangle" parent="." instance=ExtResource("1_5m8vw")]
 unique_name_in_owner = true
-position = Vector2(184, 104)
+position = Vector2(300, 300)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 unique_name_in_owner = true
+position = Vector2(300, 300)
 zoom = Vector2(3, 3)
 limit_left = 0
 limit_top = 0
@@ -24,4 +25,4 @@ script = ExtResource("3_gyph5")
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 
 [node name="Border" type="Marker2D" parent="."]
-position = Vector2(600, 600)
+position = Vector2(4800, 4800)
