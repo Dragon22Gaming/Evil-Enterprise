@@ -1,8 +1,0 @@
-res://Characters/mr_triangle.tscn
-res://Places/TycoonArea.tscn
-res://Places/arena.tscn
-res://Interfaces/menu.tscn
-res://Interfaces/Settings.tscn
-res://managers.tscn
-res://Characters/Enemies/enemy.tscn
-res://Scripts/camera_2d_tycoon.gd

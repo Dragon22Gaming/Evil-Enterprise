@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729209386
+::res://::1733369898
 enemy.gd::GDScript::-1::1728694676::0::1::::Enemy<>CharacterBody2D<>::
 icon.svg::CompressedTexture2D::2515179866494386221::1722046526::1728518925::1::::<><>::
-managers.tscn::PackedScene::750976011215235708::1728700934::0::1::::<><>::res://Scripts/Managers/Game_Manager.gd
-::res://Characters/::1728700934
-mr_triangle.tscn::PackedScene::2077517682365315655::1728700934::0::1::::<><>::uid://bx0mr0ktoj5j6::::res://Textures/CYA SUCKERS!.png<>res://Scripts/mr_triangle.gd<>res://Scripts/TriangleAnimationPlayer.gd<>uid://c3sa4aaye5jml::::res://Textures/The evil Mr triangle.png
-::res://Characters/Enemies/::1728700934
-enemy.tscn::PackedScene::8894161526544771660::1728700934::0::1::::<><>::res://enemy.gd<>uid://bb3mv6sjs2jhd::::res://icon.svg
+managers.tscn::PackedScene::750976011215235708::1729209781::0::1::::<><>::res://Scripts/Managers/Game_Manager.gd
+::res://Characters/::1729209780
+mr_triangle.tscn::PackedScene::2077517682365315655::1729209780::0::1::::<><>::uid://bx0mr0ktoj5j6::::res://Textures/CYA SUCKERS!.png<>res://Scripts/mr_triangle.gd<>res://Scripts/TriangleAnimationPlayer.gd<>uid://c3sa4aaye5jml::::res://Textures/The evil Mr triangle.png
+::res://Characters/Enemies/::1729209781
+enemy.tscn::PackedScene::8894161526544771660::1729209781::0::1::::<><>::res://enemy.gd<>uid://bb3mv6sjs2jhd::::res://icon.svg
 ::res://Font/::1725337450
 ::res://Font/HandJet/::1728518925
 Handjet-VariableFont_ELGR,ELSH,wght.ttf::FontFile::1191137804708658479::1725337439::1728518925::1::::<><>::
@@ -22,16 +22,16 @@ Handjet-Medium.ttf::FontFile::8445662436671601845::1725337438::1728518925::1::::
 Handjet-Regular.ttf::FontFile::2249176545232091518::1725337438::1728518925::1::::<><>::
 Handjet-SemiBold.ttf::FontFile::9120562578366478238::1725337438::1728518925::1::::<><>::
 Handjet-Thin.ttf::FontFile::5925035395881816431::1725337438::1728518925::1::::<><>::
-::res://Interfaces/::1728700934
+::res://Interfaces/::1729209781
 menu.gd::GDScript::-1::1725341965::0::1::::<>Control<>::
-menu.tscn::PackedScene::8519119047963606659::1728700934::0::1::::<><>::res://Interfaces/menu.gd<>uid://duxayhlcjrs6j::::res://Textures/EVIL ENTERPRISE HEHEHEHEH.png<>uid://b0ysfd5vr8rfl::::res://Textures/Play.png<>uid://csc3ny6tpew50::::res://Textures/Quit.png<>uid://20ggr7rheurj::::res://Textures/Settings.png
-Settings.tscn::PackedScene::1654747880594584375::1728700934::0::1::::<><>::res://Scripts/settings.gd
-::res://Places/::1728706034
-arena.tscn::PackedScene::8228923007280130829::1728700934::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Scripts/camera_2d_tycoon.gd
-TycoonArea.tscn::PackedScene::5510885222822697774::1728706034::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Places/tycoon_area.gd<>res://Scripts/camera_2d_tycoon.gd
+menu.tscn::PackedScene::8519119047963606659::1729209780::0::1::::<><>::res://Interfaces/menu.gd<>uid://duxayhlcjrs6j::::res://Textures/EVIL ENTERPRISE HEHEHEHEH.png<>uid://b0ysfd5vr8rfl::::res://Textures/Play.png<>uid://csc3ny6tpew50::::res://Textures/Quit.png<>uid://20ggr7rheurj::::res://Textures/Settings.png
+Settings.tscn::PackedScene::1654747880594584375::1729209781::0::1::::<><>::res://Scripts/settings.gd
+::res://Places/::1729639473
+arena.tscn::PackedScene::8228923007280130829::1729639473::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Scripts/camera_2d_tycoon.gd
+TycoonArea.tscn::PackedScene::5510885222822697774::1729209780::0::1::::<><>::uid://4umobc0dl0b0::::res://Characters/mr_triangle.tscn<>res://Places/tycoon_area.gd<>res://Scripts/camera_2d_tycoon.gd
 tycoon_area.gd::GDScript::-1::1726542717::0::1::::<>Node2D<>::
-::res://Scripts/::1728700919
-camera_2d_tycoon.gd::GDScript::-1::1728700919::0::1::::<>Camera2D<>::
+::res://Scripts/::1729209778
+camera_2d_tycoon.gd::GDScript::-1::1729209778::0::1::::<>Camera2D<>::
 mr_triangle.gd::GDScript::-1::1726542663::0::1::::<>CharacterBody2D<>::
 settings.gd::GDScript::-1::1725342341::0::1::::<>Control<>::
 TriangleAnimationPlayer.gd::GDScript::-1::1722052168::0::1::::<>AnimatedSprite2D<>::
